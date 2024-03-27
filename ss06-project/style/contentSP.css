@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header{
+    background-color: rgb(255, 98, 0);
+    width: 100%;
+    height: 130px;
+    color: white;
+}
+.topH{
+    gap: 350px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#dangNhap{
+    margin-left: 5px;
+}
+.con-topH{
+    display: flex;
+    gap: 10px;
+}
+
+
+.userDown{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    display: none;
+    flex-direction: column;
+}   
+.userDown a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    z-index: 1;
+    padding: 10px;
+}
+.userDown a:hover{
+    color: rgb(0, 92, 204);
+    background-color: aliceblue;
+}
+.userInfor:hover .userDown{
+    display: flex;
+}
+
+.userInfor{
+    display: flex;
+    gap: 10px;
+}
+
+.paySetting{
+    position: absolute;
+    cursor: pointer;
+}
+.numberPay{
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 98, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 98, 0);
+}
+#dangKy{
+    text-decoration: none;
+    color: white;
+}
+#dangNhap{
+    text-decoration: none;
+    color: white;
+}
+#dangKy:hover{
+    color: rgb(208, 208, 208);
+}
+#dangNhap:hover{
+    color: rgb(208, 208, 208);
+}
+#ngonNgu{
+    margin-top: -10px;
+}
+.botH{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+.fa-bag-shopping{
+    font-size: 45px;
+}
+.shopee{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+#textS{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.con3-botH{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.con2-botH{
+    display: flex;
+}
+.fa-magnifying-glass{
+    margin-top: 2px;
+    background-color: rgb(255, 98, 0);
+    width: 60px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 267px;
+    border-radius: 2px;
+}
+.fa-cart-shopping{
+    margin-top: 15px;
+    font-size: 24px;
+}
+/* end-header */
+
+/* main */
+main{
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.sanPham {
+    width: 180px;
+    height: 260px;
+    border: 1px solid rgb(231, 231, 231);
+}
+.sanPham:hover {
+    border-color: rgb(255, 98, 0); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+u{
+    color: rgb(255, 98, 0);
+    font-size: 10px;
+}
+.textSp{
+    color: rgb(255, 51, 0);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products{
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50.8%;
+    background-color: white;
+}
+.con2M{ 
+    gap: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+/* end-main */
+.product{
+    display: flex;
+    border: 1px solid rgb(231, 231, 231) ;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 35px;
+}
+.boxYeuThich{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 4px;
+}
+.shareProduct{
+    display: flex;
+    margin: 25px;
+    gap: 25px;
+}
+.colorO{
+    color: rgb(255, 98, 0);
+}
+.textContentP{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blurredLetters{
+    display: flex;
+    color: rgb(109, 109, 109);
+    gap: 25px;
+}
+.cartTo{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.cartPush{
+    background-color: rgb(255, 222, 201);
+    padding: 15px;
+    padding-left: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 1px rgb(255, 98, 0) solid;
+    color: rgb(255, 98, 0);
+}
+.payCart{
+    background-color: rgb(255, 98, 0);
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    color: white;
+}
+#hr1{
+    margin-top: 35px;
+    margin-right: 35px;
+    opacity: 0.3;
+}
+.cloneEnd{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.text{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 100px;    
+}
+/* nút tăng*/
+.input-group{
+    display: flex;  
+    margin-top: 13px;
+}
+.btn{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
+}
+.form-control{
+    background-color: rgb(255, 255, 255);
+    height: 28px;
+    border: 1px solid rgb(233, 233, 233);
+    width: 45px;
+    text-align: center;
+}
+/* end-nút tăng*/
+
+.first{
+    margin-top: 20px;
+}
+#đ{
+    font-size: 22px;
+}
+.numberPrice{
+    margin-top: 10px;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(246, 246, 246);
+    padding: 10px;
+}
+.priceImg{
+    margin-left: 10px;
+}
+.giaoDien2{
+    margin-left: 25px;
+    width: 200px;
+}
+.boxUp{
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+.giaoDien3{
+    margin-left: 320px;
+}
+.giaoDien4{
+    margin-left: 35px;
+}
+.giaoDien5{
+    margin-left: 100px;
+}
+/* pay */
+
+.displayPay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(235, 235, 235) solid;
+    padding: 15px;
+    margin-top: 35px;
+    width: 80%;
+    margin-left: 9%;
+}
+.displayPayRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+}
+input[type="checkbox"]{
+    accent-color: rgb(255, 0, 30);
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+}
+.paypay{
+    margin-left: 50px;
+    width: 80px;
+}
+.sanPhamPay{
+    width: 80px;
+    margin-right: 500px;
+}
+.allPay{
+    border: 1px solid rgb(230, 230, 230);
+    margin-top: 15px;
+    width: 82%;
+    margin-left: 9%;
+}
+.payPrive1{
+    margin-left: 55px;
+    display: flex;
+    padding: 20px;
+}
+.giaoDien1{
+    margin-left: 8px;
+}
+.payPrive2{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+/* end-pay */
+
+
+
+
+/* footer */
+footer{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(91, 91, 91);
+}
+.topF{
+    gap: 25px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top2F{
+    gap: 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

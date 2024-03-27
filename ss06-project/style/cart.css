@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header{
+    background-color: rgb(255, 98, 0);
+    width: 100%;
+    height: 130px;
+    color: white;
+}
+.topH{
+    gap: 350px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#dangNhap{
+    margin-left: 5px;
+}
+.con-topH{
+    display: flex;
+    gap: 10px;
+}
+
+
+.userDown{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    display: none;
+    z-index: 1;
+    flex-direction: column;
+}   
+.userDown a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.userDown a:hover{
+    color: rgb(0, 92, 204);
+    background-color: aliceblue;
+}
+.userInfor:hover .userDown{
+    display: flex;
+}
+.paySetting{
+    position: absolute;
+}
+.numberPay{
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 98, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 98, 0);
+}
+
+.userInfor{
+    display: flex;
+    gap: 10px;
+}
+#dangKy{
+    text-decoration: none;
+    color: white;
+}
+#dangNhap{
+    text-decoration: none;
+    color: white;
+}
+#dangKy:hover{
+    color: rgb(208, 208, 208);
+}
+#dangNhap:hover{
+    color: rgb(208, 208, 208);
+}
+#ngonNgu{
+    margin-top: -10px;
+}
+.botH{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+.fa-bag-shopping{
+    font-size: 45px;
+}
+.shopee{
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#textS{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.con3-botH{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.con2-botH{
+    display: flex;
+}
+.fa-magnifying-glass{
+    margin-top: 2px;
+    background-color: rgb(255, 98, 0);
+    width: 60px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 167px;
+    border-radius: 2px; 
+}
+.fa-cart-shopping{
+    margin-top: 15px;
+    font-size: 24px;
+}
+/* end-header */
+
+.product{
+    display: flex;
+    border: 1px solid rgb(231, 231, 231) ;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 35px;
+}
+.boxYeuThich{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 4px;
+}
+.shareProduct{
+    display: flex;
+    margin: 25px;
+    gap: 25px;
+}
+.colorO{
+    color: rgb(255, 98, 0);
+}
+.textContentP{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blurredLetters{
+    display: flex;
+    color: rgb(109, 109, 109);
+    gap: 25px;
+}
+.cartTo{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.cartPush{
+    background-color: rgb(255, 222, 201);
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 1px rgb(255, 98, 0) solid;
+    color: rgb(255, 98, 0);
+}
+.payCart{
+    background-color: rgb(255, 98, 0);
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    color: white;
+}
+hr{
+    opacity: 0.3;
+}
+.cloneEnd{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.text{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 100px;    
+}
+.first{
+    margin-top: 20px;
+}
+#đ{
+    font-size: 22px;
+}
+.numberPrice{
+    margin-top: 10px;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(246, 246, 246);
+    padding: 10px;
+}
+.priceImg{
+    margin-left: 10px;
+}
+.giaoDien2{
+    margin-left: 25px;
+    width: 200px;
+}
+.boxUp{
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+.giaoDien3{
+    margin-left: 320px;
+}
+.giaoDien4{
+    margin-left: 35px;
+}
+.giaoDien5{
+    margin-left: 100px;
+}
+
+/* pay */
+.displayPay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgb(235, 235, 235) solid;
+    padding: 15px;
+    margin-top: 35px;
+    width: 80%;
+    margin-left: 9%;
+}
+.displayPayRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+}
+input[type="checkbox"]{
+    accent-color: rgb(255, 0, 30);
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+}
+.paypay{
+    margin-left: 50px;
+    width: 80px;
+}
+.sanPhamPay{
+    width: 80px;
+    margin-right: 500px;
+}
+.allPay{
+    border: 1px solid rgb(230, 230, 230);
+    margin-top: 15px;
+    width: 82%;
+    margin-left: 9%;
+}
+.payPrive1{
+    margin-left: 55px;
+    display: flex;
+    padding: 20px;
+}
+.giaoDien1{
+    margin-left: 8px;
+}
+.payPrive2{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+/* end-pay */
+
+
+
+
+/* footer */
+footer{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(91, 91, 91);
+}
+.topF{
+    gap: 25px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top2F{
+    gap: 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end-footer */
+
+/* giỏ hàng */
+#cartProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; /* Adjust as needed */
+}
+
+#cartUser {
+    width: 80%; /* Adjust width as needed */
+}
+#renderCart th {
+    text-align: center;
+}
+
+#renderCart td {
+    text-align: center;
+}
+
+
+/* end-giỏ hàng */
+#cartUser{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+thead{
+    display: flex;
+}
+.tableBox{
+    width: 200px;
+    height: 50px;
+}
+#renderCart {
+    border-collapse: collapse; 
+}
+
+#renderCart th, #renderCart td {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #e1e1e1;
+}
+/* nút tăng giảm */
+.boxInput{
+    padding-left: 20px;
+    width: 50px;
+}
+.change-count-product{
+    width: 28px;
+    height: 28px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
+}
+.quantityProduct{
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgb(255, 255, 255);
+}
+.quantityProduct {
+    text-align: center;
+    width: 38px;
+    height: 26.4px;   
+}
+.down{
+    margin-right: -4px;
+}
+.imgTable{
+    width: 90px;
+    padding: 20px;
+    padding-left: 0px;
+}
+.price{
+    color: rgb(255, 98, 0);
+}
+.remove-product{
+    color: white;
+    border-radius: 4px;
+    border: rgb(255, 98, 0);
+    background-color: rgb(255, 98, 0);
+    width: 70px;
+    height: 30px
+}
+.cart-none{
+    justify-content: center;
+    align-items: center;
+}
+.textPrice{
+    color: rgb(121, 121, 121);
+}
+.priceInputA{
+    text-decoration: none;
+    color: white;
+}
+.priceInput{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    border: rgb(255, 98, 0);
+    background-color: rgb(255, 98, 0);
+    width: 170px;
+    height: 40px;
+    text-decoration: none;
+}
+/* end-nút tăng giảm */
+#textPay{
+    font-size: 18px;
+}

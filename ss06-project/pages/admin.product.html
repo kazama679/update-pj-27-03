@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý sản phẩm</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/admin.product.css">
+</head>
+<body>
+    <div class="all">
+        <div class="box">
+            <div class="shopee">
+                <div><i class="fa-solid fa-bag-shopping"></i></div>
+                <div id="textS">Shopee</div>
+            </div>
+            <div class="margin text">
+                <div></div>
+            </div>
+            <hr class="hrEdit">
+            <div class="margin">
+                <a href="./admin.category.html">• Danh mục sản phẩm</a>
+            </div>
+            <div class="margin">
+                <a class="color" href="./admin.product.html">• Quản lý sản phẩm</a>
+            </div>
+            <div class="margin">
+                <a href="./admin.user.html">• Quản lý người dùng</a>
+            </div>
+        </div>
+    
+        <div>
+            <div class="topHeader">
+                <div class="topSonHeader">
+                    <i class="fa-solid fa-bars"></i>
+                    <div>Trang chủ</div>
+                </div>
+                <div class="topSonHeader Admin">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <div>Admin</div>
+                </div>
+            </div>
+            <div class="footer">
+                <div>Tìm sản phẩm: <input type="text"> <button>Tìm kiếm</button></div>
+                <div class="add-customer">
+                    <h2>Thêm sản phẩm mới</h2>
+                    <input type="text" id="nameProduct" placeholder="Tên sản phẩm">
+                    <input type="text" id="image" placeholder="Link ảnh sản phẩm">
+                    <input type="text" id="priceProduct" placeholder="Giá sản phẩm">
+                    <input type="text" id="NumberStock" placeholder="Số lượng">
+                    <select name="" id="select">
+                    </select>
+                    <button onclick="addCustomer()">Thêm</button>
+                </div>              
+                <div class="text2">
+                    <h3>* Danh sách sản phẩm:</h3>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Ảnh Sản Phẩm</th>
+                            <th>Giá Sản Phẩm</th>
+                            <th>Số Lượng</th>
+                            <th>Chỉnh sửa</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ADMproduct">
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/admin.product.js"></script>
+</body>
+</html>
